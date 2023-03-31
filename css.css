@@ -1,0 +1,226 @@
+﻿* {
+    box-sizing:border-box;
+}
+ul {
+list-style:none;
+}
+.header {
+    display: flex;
+    justify-items: baseline;
+    background-color: #FBCD49;
+    padding:10px;
+    
+}
+#title:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.wrap1:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.load:hover {
+    color: #155BAD;
+    cursor: pointer;
+    background-color:white;
+}
+
+.tophh:hover span {
+    display: none
+}
+
+.tophh:hover::after {
+    content: "mish 3am bemza7! "
+}
+.watertxt:hover {
+    color: darkgreen;
+    cursor: pointer;
+}
+
+
+#fire:hover {
+    color: orange;
+    cursor: pointer;
+    font-size:101px;
+}
+
+.horitem:hover{
+    color:orange;
+    cursor:pointer;
+
+}
+
+
+.horitem {
+    display: inline;
+    margin: 20px;
+    font-weight: 600;
+}
+
+
+ul {
+    margin-top: 30px;
+    margin-left:450px;
+}
+#title {
+margin-left:30px;
+}
+.intro {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(page1.png);
+    padding-top: 250px;
+    padding-bottom:150px;
+}
+#fire {
+    font-size: 100px;
+    margin-left: 50px;
+    color: #FBCD49;
+}
+.quotediv {
+    width: 100%;
+    height: 350px;
+    background-image: url(fireback.png);
+    justify-items: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:50px;
+}
+.seperator {
+    width: 100%;
+    height: 15px;
+    background-color: #FBCD49;
+}
+.quote {
+    text-align: center;
+    position: center;
+    color: white;
+    font-size: 25px;
+    font-family: Aldhabi;
+}
+.bending {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #CC0700;
+    height:400px;
+}
+#firebendinicon {
+width:300px;
+height:300px;
+margin-right:50px;
+}
+#firetext {
+    height:300px;
+    font-size:30px;
+    text-align:left;
+    color:white;
+}
+.cool {
+width:100%;
+height:100px;
+background-color:cadetblue;
+padding:20px;
+}
+#cooltext {
+text-align:center;
+color:midnightblue;
+font-weight:400px;
+}
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-image: url(aboutus.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 10px;
+    background-size:cover
+}
+.wrap {
+    word-wrap: normal;
+    text-align: center;
+    color: #155BAD;
+    width:700px;
+    font-size:40px;
+    font-weight:500;
+}
+.wrap1 {
+    word-wrap: normal;
+    text-align: center;
+    color: #155BAD;
+    font-size:80px;
+}
+.gallerypost {
+    background-color: #9FCDE4 ;
+    padding:10px;
+}
+#gallerytitle {
+    text-align: center;
+    font-size: 50px;
+    color: #155BAD;
+    border-width: 5px;
+    border-color: #155BAD;
+    border:solid;
+}
+.gallery {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center
+}
+.image {
+width:760px;
+height:100%;
+margin:20px;
+}
+.load {
+    background-color: #155BAD;
+    padding:10px;
+    border-radius:5px;
+    color:white;
+}
+.toph {
+background-image:url(toph.png);
+background-repeat:no-repeat;
+background-size:cover;
+padding-top:400px;
+width:100%;
+padding-left:70px;
+padding-bottom:50px;
+height:
+}
+.tophh {
+    color: #94E163;
+    font-size:70px;
+    font-family:archivo black;
+    text-align:left;
+    margin-left=0;
+}
+.tophhh {
+    text-align: left;
+    color: #94E163;
+    font-size:15px;
+    margin-left:50px;
+    margin-bottom:50px
+    
+}
+.water {
+width:100%;
+height:80px;
+text-align:center;
+background-color:darkseagreen;
+padding:20px;
+}
+.watertxt {
+    font-size: 20px;
+    color: #051305;
+}
